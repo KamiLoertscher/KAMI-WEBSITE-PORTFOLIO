@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -78,12 +79,7 @@ nav {
 section {
   padding: 100px 20px;
   min-height: 100vh;
-  border-bottom: 1px solid #ddd;
-  background-color: #fff;
-}
-
-section:nth-child(even) {
-  background-color: #f3f0f8;
+  color: white;
 }
 
 section h1 {
@@ -94,6 +90,28 @@ section h1 {
 section p {
   max-width: 600px;
   line-height: 1.6;
+}
+
+/* Unique purple backgrounds */
+#about {
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+}
+
+#gallery {
+  background: linear-gradient(135deg, #7d3c98, #a569bd);
+}
+
+#contact {
+  background: linear-gradient(135deg, #6c3483, #bb8fce);
+}
+
+#projects {
+  background: linear-gradient(135deg, #5b2c6f, #d2b4de);
+}
+
+#news {
+  background: linear-gradient(135deg, #512e5f, #e8daef);
+  color: #1a1a1a;
 }
 
 /* Mobile Styles */
